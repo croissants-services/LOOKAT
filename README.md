@@ -93,6 +93,8 @@ You can enjoy your reading, and the feedback based on your reading behavior will
 
 Empirically, this model works better when run on the cmd, rather than vscode powershell environment :)
 
+```
+
 Integrated
 
 |-Control (Controlling the packages encapsulated in the system, but currently **Depracted**)
@@ -134,6 +136,7 @@ Integrated
 
 |- OCR (Where OCR module and screenshot capturing modules are stored)
 
+```
 
 ### To verify if your model is working properly
 
