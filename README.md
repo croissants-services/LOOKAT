@@ -98,44 +98,26 @@ Empirically, this model works better when run on the cmd, rather than vscode pow
 Integrated
 
 |-Control (Controlling the packages encapsulated in the system, but currently **Depracted**)
-
 |-Control_new (Controlling the packages, based on the newly developed eye-tracking system. Transmits the data stream with python queue datatype)
-
 |-README.md
-
 |-Init.py (Utilized for initializing the data being stored)
-
 |-new_tracking_api (Provides the packages to run the calibration, eye-tracking, and rule based reading disability detection)
-
     |- one_point_calibration.py (For running the calibration)
-
     |- realtime_gaze_tracking.py (For running the real-time 
     gaze tracking)
-
     |- detection.py (Detects the fixation, regression from the real-time data stream)
-
     |- processor.py (Detects where the fixation elongation took place)
-
 |- dataprocessor (Where the .csv type 30s-wise data are processed into input image of our DL based classifier model)
     |- trace_processing (The exact module which processes the .csv file into image data)
-
 |- Calibration_new (Where calibration data are stored. Wiped out if the initilization process is undergone)
-
 |- classifier (Contains the pretrained weights and classifying model)
-
     |- DDD_efficientnet.py (Contains the exact model)
     |- pretrained_weights (Contains the pretrained weights)
-
 |- LLM (Contains feedback LLM model)
-
 |- inputdata (Contains the trace map that are harnessed as input data of classification model)
-
 |- rawdata (.csv files generated every 30 seconds, which will be converted to inputdata)
-
 |- screenshots (Where screenshots from fixation elongation and regression are stored)
-
 |- OCR (Where OCR module and screenshot capturing modules are stored)
-
 ```
 
 ### To verify if your model is working properly
